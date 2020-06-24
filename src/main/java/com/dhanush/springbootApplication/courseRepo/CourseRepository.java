@@ -12,8 +12,8 @@ public class CourseRepository {//extends CrudRepository<Long,Course> {  //plan t
 	
 	List<Course> coursesList = Arrays.asList(
 			new Course(1L, "Learn SpringBoot in 30 days", "Dhanush Kale"),
-			new Course(1L, "Learn SpringBoot in 60 days", "Dhanush Kale"),
-			new Course(1L, "Learn SpringBoot in 90 days", "Dhanush Kale")
+			new Course(2L, "Learn SpringBoot in 60 days", "Dhanush Kale"),
+			new Course(3L, "Learn SpringBoot in 90 days", "Dhanush Kale")
 			);
 	public List<Course> findAll(){
 		
